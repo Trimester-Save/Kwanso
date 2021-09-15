@@ -1,0 +1,318 @@
+/*login*/
+body {
+    background-color: #e3e7ed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#iosBlurBg {
+    resize: horizontal;
+    position: relative;
+    /*width: 100%;
+    height: 100vh;*/
+    border-top: 450px solid transparent;
+    border-left: 550px solid rgba(0, 0, 0, 0.04);
+    border-bottom: 450px solid transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    /*box-shadow: 1px 1px 25px #999;*/
+}
+
+#whiteBg {
+    resize: horizontal;
+    position: absolute;
+    top: -410px;
+    right: 0;
+    border-top: 410px solid transparent;
+    border-left: 505px solid rgba(255, 255, 255, 1);
+    border-bottom: 410px solid transparent;
+    border-right: 30px solid transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+}
+
+#bottomEnter {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    z-index: -2;
+    border-top: 200px solid transparent;
+    border-right: 300px solid #aa5391;
+    border-bottom: 150px solid transparent;
+    transform: rotate(-2deg);
+}
+
+#bottomBlurBg {
+    position: absolute;
+    top: 490px;
+    left: 110px;
+    z-index: -1;
+    border-top: 200px solid transparent;
+    border-right: 260px solid rgba(199, 131, 179, 0.48);
+    border-bottom: 120px solid transparent;
+    transform: rotate(10deg);
+}
+
+.enterButton {
+    position: absolute;
+    top: 660px;
+    left: 283px;
+    width: 149px;
+    height: 70px;
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.enterText {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.loginForm {
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.title span {
+    font-weight: 800;
+    /*letter-spacing: 3px;*/
+}
+
+.title hr {
+    width: 150px;
+    border-width: 2px;
+    border-color: #aa5391;
+    margin: 0;
+
+}
+
+hr.short {
+    width: 50px;
+    border-width: 2px;
+    border-color: #aa5391;
+    float: left;
+    margin: 0;
+
+}
+
+
+/*= input focus effects css
+=========================== */
+:focus {
+    outline: none;
+}
+
+.col-3 {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+input {
+    margin-top: 15px;
+    font: 15px/24px "Open Sans", sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 65%;
+}
+
+input::placeholder {
+
+    letter-spacing: 0;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+.effect-2 {
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    background-color: white !important;
+}
+
+
+.forget button {
+    margin-top: 50px;
+    border-radius: 0;
+    color: white;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.loginlogo {
+    width: 150px;
+    margin-left: -33px;
+    margin-top: -143px;
+}
+
+body {
+    background-color: #e4f2d3 !important;
+}
+
+.btn-primary {
+    background-color: #cd3333 !important;
+    border-color: #cd3333 !important;
+}
+
+
+/*check-in and registration form*/
+
+
+#regContainer {
+    margin-top: 9%;
+}
+
+.panel-login {
+    border-color: #ccc;
+    background-color: #f9f8f8;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.panel-login > .panel-heading {
+    text-align: center;
+}
+
+.panel-login > .panel-heading a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.panel-login > .panel-heading a.active {
+    font-size: 34px;
+}
+
+.panel-login > .panel-heading hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
+
+.panel-login input[type="text"], .panel-login input[type="email"], .panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 23px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.panel-login input:hover,
+.panel-login input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.btn-login {
+    background-color: #3D9DB3;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #2d92a9;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff !important;
+    background-color: #0f5870e8;
+    border-color: #53A3CD;
+}
+
+.btn-register {
+    background-color: #17ae47;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #1CA347;
+    border-color: #1CA347;
+}
+
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../images/checkin.jpg');
+    background-repeat: repeat;
+}
+
+.panel-heading a {
+    font-size: 48px;
+    color: rgb(6, 106, 117);
+    padding: 2px 0 10px 0;
+    font-family: 'FranchiseRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.panel-heading a {
+    background: -webkit-repeating-linear-gradient(-45deg,
+    rgb(18, 83, 93),
+    rgb(18, 83, 93) 20px,
+    rgb(64, 111, 118) 20px,
+    rgb(64, 111, 118) 40px,
+    rgb(18, 83, 93) 40px);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.panel {
+
+    background-color: #f6f4f4e0 !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .effect-2 {
+        width: 290px;
+    }
+}
